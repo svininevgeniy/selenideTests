@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf195b03-6086-48b7-88c0-973a38668429" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../ModuleTesting/ModuleTesting/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../collections/collections/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../collections/stream/stream/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exceptions/exceptions/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../jdbc/jdbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../object/object/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/oop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../polymorphism/polymorphism/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../restAssured/rest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../selenium/selenium/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/27175e4f-6de8-4440-9016-9714d0cf24bc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/29cd7fdc-8c1f-497d-b24a-b527d634d447-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7abc0069-b4c2-4c5b-9e3e-56e444f88349-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8e8cad13-4ff4-4f2d-a65e-365a45e7e231-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a2924096-5976-4629-b0e4-1a6ad5ab97cb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/abe414cd-a3b5-4715-a260-12683c25c108-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b65dca06-4ea6-48ad-bf35-6e57870013af-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-03-09T21-23-52_273.dumpstream" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MeLdkGcd7Jh5bXKYcFmF5UdjRZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/esvinin/IdeaProjects/demoProject&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.AeroTests">
+    <configuration name="AeroTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenideCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aeroTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aeroTests" />
+      <option name="MAIN_CLASS_NAME" value="aeroTests.AeroTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AeroTests.checkInformationDropdownTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenideCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aeroTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aeroTests" />
+      <option name="MAIN_CLASS_NAME" value="aeroTests.AeroTests" />
+      <option name="METHOD_NAME" value="checkInformationDropdownTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AeroTests" />
+        <item itemvalue="JUnit.AeroTests.checkInformationDropdownTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf195b03-6086-48b7-88c0-973a38668429" name="Changes" comment="" />
+      <created>1678123193285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678123193285</updated>
+    </task>
+    <servers />
+  </component>
+</project>
