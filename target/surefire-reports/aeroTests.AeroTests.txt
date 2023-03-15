@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: aeroTests.AeroTests
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.368 s <<< FAILURE! - in aeroTests.AeroTests
-aeroTests.AeroTests.manageBookingTest  Time elapsed: 11.526 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.957 s <<< FAILURE! - in aeroTests.AeroTests
+aeroTests.AeroTests.manageBookingTest  Time elapsed: 10.762 s  <<< FAILURE!
 Element not found {div.message_error}
 Expected: exist
-Screenshot: file:/C:/Users/esvinin/Desktop/automation%20course/ui/selenideCourse/selenideCourse/build/reports/tests/1678889380541.0.png
-Page source: file:/C:/Users/esvinin/Desktop/automation%20course/ui/selenideCourse/selenideCourse/build/reports/tests/1678889380541.0.html
+Screenshot: file:/C:/Users/esvinin/Desktop/automation%20course/ui/selenideCourse/selenideCourse/build/reports/tests/1678898012780.0.png
+Page source: file:/C:/Users/esvinin/Desktop/automation%20course/ui/selenideCourse/selenideCourse/build/reports/tests/1678898012780.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.message_error"}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:88)
@@ -14,9 +14,9 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {"
 	at com.codeborne.selenide.impl.ExceptionWrapper.wrap(ExceptionWrapper.java:32)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:154)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at com.sun.proxy.$Proxy15.getText(Unknown Source)
-	at aeroPages.ViewBookingPage.getTextFromMessageWithError(ViewBookingPage.java:11)
-	at aeroTests.AeroTests.manageBookingTest(AeroTests.java:81)
+	at com.sun.proxy.$Proxy19.getText(Unknown Source)
+	at aeroPages.ViewBookingPage.getTextFromMessageWithError(ViewBookingPage.java:12)
+	at aeroTests.AeroTests.manageBookingTest(AeroTests.java:92)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -93,9 +93,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9af45cbe5ece2b521045f5dc413fa430, findElement {using=css selector, value=div.message_error}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\esvinin\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63309}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63309/devtoo..., se:cdpVersion: 111.0.5563.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9af45cbe5ece2b521045f5dc413fa430
+Command: [563c68e5fb3db224553e3faf9261cb4a, findElement {using=css selector, value=div.message_error}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\esvinin\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52917}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52917/devtoo..., se:cdpVersion: 111.0.5563.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 563c68e5fb3db224553e3faf9261cb4a
 	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)

@@ -6,9 +6,14 @@ import aeroPages.SearchTicketsForm;
 import aeroPages.ViewBookingPage;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.*;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
+@Epic(value = "Главная страница сайта")
+@Feature(value = "Основной функционал главной страницы")
 public class AeroTests {
     private String aeroUrl = "https://pobeda.aero/";
     private String aeroTitle = "Авиакомпания «Победа» - купить билеты на самолёт дешево онлайн, прямые и трансферные рейсы";
@@ -20,6 +25,8 @@ public class AeroTests {
     }
 
     @Test
+    @Description(value = "Тест проверяет дополнительную информацию из выпадающего списка меню 'Информация'")
+    @Feature(value = "Главное меню сайта")
     public void checkInformationDropdownTest(){
 
         //Step 2
@@ -41,6 +48,8 @@ public class AeroTests {
     }
 
     @Test
+    @Description(value = "Негативный тест с поиском авиабилетов без указания даты 'Туда'")
+    @Feature(value = "Форма поиска авиабилетов")
     public void searchTicketsTest(){
 
         //Step 2
@@ -59,6 +68,8 @@ public class AeroTests {
     }
 
     @Test
+    @Description(value = "Негативный тест для проверки несуществующего бронирования")
+    @Feature(value = "Управление бронированием")
     public void manageBookingTest(){
 
         //Step 2

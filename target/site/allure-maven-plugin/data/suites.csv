@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Mar 15 17:09:24 MSK 2023","Wed Mar 15 17:09:30 MSK 2023","6154","","aeroTests.AeroTests","","aeroTests.AeroTests","checkInformationDropdownTest","checkInformationDropdownTest()",""
-"failed","Wed Mar 15 17:09:30 MSK 2023","Wed Mar 15 17:09:42 MSK 2023","11521","","aeroTests.AeroTests","","aeroTests.AeroTests","manageBookingTest","manageBookingTest()",""
-"passed","Wed Mar 15 17:09:10 MSK 2023","Wed Mar 15 17:09:24 MSK 2023","13427","","aeroTests.AeroTests","","aeroTests.AeroTests","searchTicketsTest","searchTicketsTest()",""
+"failed","Wed Mar 15 19:33:23 MSK 2023","Wed Mar 15 19:33:34 MSK 2023","10755","","aeroTests.AeroTests","","aeroTests.AeroTests","manageBookingTest","manageBookingTest()","Негативный тест для проверки несуществующего бронирования"
+"passed","Wed Mar 15 19:33:03 MSK 2023","Wed Mar 15 19:33:17 MSK 2023","13644","","aeroTests.AeroTests","","aeroTests.AeroTests","searchTicketsTest","searchTicketsTest()","Негативный тест с поиском авиабилетов без указания даты 'Туда'"
+"passed","Wed Mar 15 19:33:17 MSK 2023","Wed Mar 15 19:33:23 MSK 2023","6166","","aeroTests.AeroTests","","aeroTests.AeroTests","checkInformationDropdownTest","checkInformationDropdownTest()","Тест проверяет дополнительную информацию из выпадающего списка меню 'Информация'"
